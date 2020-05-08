@@ -3,7 +3,7 @@ import './App.css';
 import Dropdown from './components/Dropdown';
 import Table from './components/Table'
 import {ColorDynamic,ShapeDynamic,FilterColor,FilterShape} from './components/tools'
-
+// how about you consider having xDynamic(attribute,data)
 function App() {
 
   const data = [{ shape: `Rectangle`, color: `Red` },{ shape: `Circle`, color: `Red` }, { shape: `Rectangle`, color: `Orange` }, { shape: `Rectangle`, color: `Green` }, { shape: `Rectangle`, color: `Blue` }, { shape: `Square`, color: `Green` }, { shape: `Square`, color: `Red` }, { shape: `Square`, color: `Orange` }, { shape: `Square`, color: `Red` }]
